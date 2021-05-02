@@ -1,0 +1,112 @@
+*{
+    margin: a;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.continer{
+    width: 100%;
+    height: 100vh;
+    background: url("../imges/a323f96e13fc9fb4953607658afb-1428591.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 450px;
+    height: 550px;
+    background: rgba(255, 255,255, .5);
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 35px;
+    text-shadow: 5px 5px 10px #222;
+}
+.input{
+    width: 95%;
+    height: 40px;
+    margin:0 auto 15px auto;
+    padding-left: 15px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    
+}
+input:hover{
+    box-shadow: 5px 5px 10px #154360;
+    transition: box-shadow .5s;
+    -webkit-transition: box-shadow .5s;
+    -moz-transition: box-shadow .5s;
+    -ms-transition: box-shadow .5s;
+    -o-transition: box-shadow .5s;
+}
+.input:focus{
+    width: 100%;
+    border: 2px solid #154360;
+    outline: none;
+    transition: width .5s;
+    -webkit-transition: width .5s;
+    -moz-transition: width .5s;
+    -ms-transition: width .5s;
+    -o-transition: width .5s;
+}
+
+label{
+    color: #222;
+    text-transform: capitalize;
+}
+.btn{
+    margin: auto;
+    text-align: center;
+}
+button{
+  padding: 10px 30px;
+  background:  #2980B9 ;
+  color: #fff;
+  border: none;
+  font-family: cursive;
+  font-size: 17px;
+  border-radius: 5px;
+  margin: 15px 0;
+  box-shadow: 5px 5px 10px #154360;
+  
+}
+button:hover{
+   background: #154360;
+   box-shadow: 0;
+   transform: translate(0,-10px);
+   -webkit-transform: translate(0,-10px);
+   -moz-transform: translate(0,-10px);
+   -ms-transform: translate(0,-10px);
+   -o-transform: translate(0,-10px);
+   transition:background .5s,transform .5s ;
+  -webkit-transition:background .5s,transform .5s ;
+  -moz-transition:background .5s,transform .5s ;
+  -ms-transition:background .5s,transform .5s ;
+  -o-transition:background .5s,transform .5s ;
+}
+p{
+    text-align: center;
+    text-transform: capitalize;
+    color: #222;
+}
+a{
+    color: #2980B9;
+    text-decoration: none;
+}

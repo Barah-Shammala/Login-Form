@@ -1,0 +1,32 @@
+
+@media (max-width:500px){
+    .continer,button{
+        background: #6C3483;
+    
+    }
+    h1{
+        font-size: 20px;
+    }
+    .form{
+        width: 300px;
+    }
+    a{
+        color: #6C3483;
+    }
+}
+@media (min-width:500px) and (max-width:750px){
+    .continer,button{
+        background: #6C3483 ;
+    }
+    .form{
+        width: 400px;
+    }
+    a{
+        color: #6C3483;
+    }
+}
+@media (max-width:751px){
+h1 {
+     font-size: 30px;
+}
+}
